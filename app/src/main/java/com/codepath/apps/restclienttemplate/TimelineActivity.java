@@ -93,9 +93,10 @@ public class TimelineActivity extends AppCompatActivity {
                 onLogoutButton();
                 //Navigate to the compose activity
                 return true;
-        }
 
-        return super.onOptionsItemSelected(item);
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     @Override
